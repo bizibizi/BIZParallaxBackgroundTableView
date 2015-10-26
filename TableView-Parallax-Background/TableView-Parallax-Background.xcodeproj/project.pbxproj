@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C298DA2192CF1C7002B036F /* TableViewParallaxBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C298DA1192CF1C7002B036F /* TableViewParallaxBackground.m */; };
+		0C298DA8192CF659002B036F /* nyc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C298DA7192CF659002B036F /* nyc.jpg */; };
+		0CE6AF92191C67A2000450C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE6AF91191C67A2000450C6 /* Foundation.framework */; };
+		0CE6AF94191C67A2000450C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE6AF93191C67A2000450C6 /* CoreGraphics.framework */; };
+		0CE6AF96191C67A2000450C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE6AF95191C67A2000450C6 /* UIKit.framework */; };
+		0CE6AF9C191C67A2000450C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CE6AF9A191C67A2000450C6 /* InfoPlist.strings */; };
+		0CE6AF9E191C67A2000450C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6AF9D191C67A2000450C6 /* main.m */; };
+		0CE6AFA2191C67A2000450C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6AFA1191C67A2000450C6 /* AppDelegate.m */; };
+		0CE6AFA5191C67A2000450C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE6AFA3191C67A2000450C6 /* Main.storyboard */; };
+		0CE6AFA8191C67A2000450C6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6AFA7191C67A2000450C6 /* MasterViewController.m */; };
+		0CE6AFAD191C67A2000450C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CE6AFAC191C67A2000450C6 /* Images.xcassets */; };
+		0CE6AFB4191C67A2000450C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE6AFB3191C67A2000450C6 /* XCTest.framework */; };
+		0CE6AFB5191C67A2000450C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE6AF91191C67A2000450C6 /* Foundation.framework */; };
+		0CE6AFB6191C67A2000450C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE6AF95191C67A2000450C6 /* UIKit.framework */; };
+		0CE6AFBE191C67A2000450C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CE6AFBC191C67A2000450C6 /* InfoPlist.strings */; };
+		0CE6AFC0191C67A2000450C6 /* TableView_Parallax_BackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6AFBF191C67A2000450C6 /* TableView_Parallax_BackgroundTests.m */; };
+		0CE6AFCA191C69AF000450C6 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0CE6AFC9191C69AF000450C6 /* images.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CE6AFB7191C67A2000450C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CE6AF86191C67A2000450C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CE6AF8D191C67A2000450C6;
+			remoteInfo = "TableView-Parallax-Background";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C298DA0192CF1C7002B036F /* TableViewParallaxBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewParallaxBackground.h; sourceTree = "<group>"; };
+		0C298DA1192CF1C7002B036F /* TableViewParallaxBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewParallaxBackground.m; sourceTree = "<group>"; };
+		0C298DA7192CF659002B036F /* nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc.jpg; sourceTree = "<group>"; };
+		0CE6AF8E191C67A2000450C6 /* TableView-Parallax-Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView-Parallax-Background.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE6AF91191C67A2000450C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CE6AF93191C67A2000450C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CE6AF95191C67A2000450C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CE6AF99191C67A2000450C6 /* TableView-Parallax-Background-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView-Parallax-Background-Info.plist"; sourceTree = "<group>"; };
+		0CE6AF9B191C67A2000450C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CE6AF9D191C67A2000450C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CE6AF9F191C67A2000450C6 /* TableView-Parallax-Background-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableView-Parallax-Background-Prefix.pch"; sourceTree = "<group>"; };
+		0CE6AFA0191C67A2000450C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CE6AFA1191C67A2000450C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CE6AFA4191C67A2000450C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CE6AFA6191C67A2000450C6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0CE6AFA7191C67A2000450C6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0CE6AFAC191C67A2000450C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0CE6AFB2191C67A2000450C6 /* TableView-Parallax-BackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView-Parallax-BackgroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE6AFB3191C67A2000450C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0CE6AFBB191C67A2000450C6 /* TableView-Parallax-BackgroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView-Parallax-BackgroundTests-Info.plist"; sourceTree = "<group>"; };
+		0CE6AFBD191C67A2000450C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CE6AFBF191C67A2000450C6 /* TableView_Parallax_BackgroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_Parallax_BackgroundTests.m; sourceTree = "<group>"; };
+		0CE6AFC9191C69AF000450C6 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CE6AF8B191C67A2000450C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE6AF94191C67A2000450C6 /* CoreGraphics.framework in Frameworks */,
+				0CE6AF96191C67A2000450C6 /* UIKit.framework in Frameworks */,
+				0CE6AF92191C67A2000450C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CE6AFAF191C67A2000450C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE6AFB4191C67A2000450C6 /* XCTest.framework in Frameworks */,
+				0CE6AFB6191C67A2000450C6 /* UIKit.framework in Frameworks */,
+				0CE6AFB5191C67A2000450C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C298D9F192CF1C7002B036F /* TableViewParallaxBackground */ = {
+			isa = PBXGroup;
+			children = (
+				0C298DA0192CF1C7002B036F /* TableViewParallaxBackground.h */,
+				0C298DA1192CF1C7002B036F /* TableViewParallaxBackground.m */,
+			);
+			path = TableViewParallaxBackground;
+			sourceTree = "<group>";
+		};
+		0CE6AF85191C67A2000450C6 = {
+			isa = PBXGroup;
+			children = (
+				0C298D9F192CF1C7002B036F /* TableViewParallaxBackground */,
+				0CE6AF97191C67A2000450C6 /* TableView-Parallax-Background */,
+				0CE6AFB9191C67A2000450C6 /* TableView-Parallax-BackgroundTests */,
+				0CE6AF90191C67A2000450C6 /* Frameworks */,
+				0CE6AF8F191C67A2000450C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CE6AF8F191C67A2000450C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CE6AF8E191C67A2000450C6 /* TableView-Parallax-Background.app */,
+				0CE6AFB2191C67A2000450C6 /* TableView-Parallax-BackgroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CE6AF90191C67A2000450C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CE6AF91191C67A2000450C6 /* Foundation.framework */,
+				0CE6AF93191C67A2000450C6 /* CoreGraphics.framework */,
+				0CE6AF95191C67A2000450C6 /* UIKit.framework */,
+				0CE6AFB3191C67A2000450C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CE6AF97191C67A2000450C6 /* TableView-Parallax-Background */ = {
+			isa = PBXGroup;
+			children = (
+				0CE6AFA0191C67A2000450C6 /* AppDelegate.h */,
+				0CE6AFA1191C67A2000450C6 /* AppDelegate.m */,
+				0CE6AFA3191C67A2000450C6 /* Main.storyboard */,
+				0CE6AFA6191C67A2000450C6 /* MasterViewController.h */,
+				0CE6AFA7191C67A2000450C6 /* MasterViewController.m */,
+				0CE6AFAC191C67A2000450C6 /* Images.xcassets */,
+				0CE6AFC9191C69AF000450C6 /* images.jpeg */,
+				0C298DA7192CF659002B036F /* nyc.jpg */,
+				0CE6AF98191C67A2000450C6 /* Supporting Files */,
+			);
+			path = "TableView-Parallax-Background";
+			sourceTree = "<group>";
+		};
+		0CE6AF98191C67A2000450C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CE6AF99191C67A2000450C6 /* TableView-Parallax-Background-Info.plist */,
+				0CE6AF9A191C67A2000450C6 /* InfoPlist.strings */,
+				0CE6AF9D191C67A2000450C6 /* main.m */,
+				0CE6AF9F191C67A2000450C6 /* TableView-Parallax-Background-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CE6AFB9191C67A2000450C6 /* TableView-Parallax-BackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CE6AFBF191C67A2000450C6 /* TableView_Parallax_BackgroundTests.m */,
+				0CE6AFBA191C67A2000450C6 /* Supporting Files */,
+			);
+			path = "TableView-Parallax-BackgroundTests";
+			sourceTree = "<group>";
+		};
+		0CE6AFBA191C67A2000450C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CE6AFBB191C67A2000450C6 /* TableView-Parallax-BackgroundTests-Info.plist */,
+				0CE6AFBC191C67A2000450C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CE6AF8D191C67A2000450C6 /* TableView-Parallax-Background */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE6AFC3191C67A2000450C6 /* Build configuration list for PBXNativeTarget "TableView-Parallax-Background" */;
+			buildPhases = (
+				0CE6AF8A191C67A2000450C6 /* Sources */,
+				0CE6AF8B191C67A2000450C6 /* Frameworks */,
+				0CE6AF8C191C67A2000450C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView-Parallax-Background";
+			productName = "TableView-Parallax-Background";
+			productReference = 0CE6AF8E191C67A2000450C6 /* TableView-Parallax-Background.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CE6AFB1191C67A2000450C6 /* TableView-Parallax-BackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE6AFC6191C67A2000450C6 /* Build configuration list for PBXNativeTarget "TableView-Parallax-BackgroundTests" */;
+			buildPhases = (
+				0CE6AFAE191C67A2000450C6 /* Sources */,
+				0CE6AFAF191C67A2000450C6 /* Frameworks */,
+				0CE6AFB0191C67A2000450C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CE6AFB8191C67A2000450C6 /* PBXTargetDependency */,
+			);
+			name = "TableView-Parallax-BackgroundTests";
+			productName = "TableView-Parallax-BackgroundTests";
+			productReference = 0CE6AFB2191C67A2000450C6 /* TableView-Parallax-BackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CE6AF86191C67A2000450C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Igor Bizi Mineev";
+				TargetAttributes = {
+					0CE6AFB1191C67A2000450C6 = {
+						TestTargetID = 0CE6AF8D191C67A2000450C6;
+					};
+				};
+			};
+			buildConfigurationList = 0CE6AF89191C67A2000450C6 /* Build configuration list for PBXProject "TableView-Parallax-Background" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CE6AF85191C67A2000450C6;
+			productRefGroup = 0CE6AF8F191C67A2000450C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CE6AF8D191C67A2000450C6 /* TableView-Parallax-Background */,
+				0CE6AFB1191C67A2000450C6 /* TableView-Parallax-BackgroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CE6AF8C191C67A2000450C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C298DA8192CF659002B036F /* nyc.jpg in Resources */,
+				0CE6AFAD191C67A2000450C6 /* Images.xcassets in Resources */,
+				0CE6AFCA191C69AF000450C6 /* images.jpeg in Resources */,
+				0CE6AF9C191C67A2000450C6 /* InfoPlist.strings in Resources */,
+				0CE6AFA5191C67A2000450C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CE6AFB0191C67A2000450C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE6AFBE191C67A2000450C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CE6AF8A191C67A2000450C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C298DA2192CF1C7002B036F /* TableViewParallaxBackground.m in Sources */,
+				0CE6AFA2191C67A2000450C6 /* AppDelegate.m in Sources */,
+				0CE6AFA8191C67A2000450C6 /* MasterViewController.m in Sources */,
+				0CE6AF9E191C67A2000450C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CE6AFAE191C67A2000450C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE6AFC0191C67A2000450C6 /* TableView_Parallax_BackgroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CE6AFB8191C67A2000450C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CE6AF8D191C67A2000450C6 /* TableView-Parallax-Background */;
+			targetProxy = 0CE6AFB7191C67A2000450C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CE6AF9A191C67A2000450C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CE6AF9B191C67A2000450C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0CE6AFA3191C67A2000450C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CE6AFA4191C67A2000450C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CE6AFBC191C67A2000450C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CE6AFBD191C67A2000450C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CE6AFC1191C67A2000450C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CE6AFC2191C67A2000450C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CE6AFC4191C67A2000450C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView-Parallax-Background/TableView-Parallax-Background-Prefix.pch";
+				INFOPLIST_FILE = "TableView-Parallax-Background/TableView-Parallax-Background-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorbizi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CE6AFC5191C67A2000450C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView-Parallax-Background/TableView-Parallax-Background-Prefix.pch";
+				INFOPLIST_FILE = "TableView-Parallax-Background/TableView-Parallax-Background-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorbizi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0CE6AFC7191C67A2000450C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableView-Parallax-Background.app/TableView-Parallax-Background";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView-Parallax-Background/TableView-Parallax-Background-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TableView-Parallax-BackgroundTests/TableView-Parallax-BackgroundTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorbizi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0CE6AFC8191C67A2000450C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableView-Parallax-Background.app/TableView-Parallax-Background";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView-Parallax-Background/TableView-Parallax-Background-Prefix.pch";
+				INFOPLIST_FILE = "TableView-Parallax-BackgroundTests/TableView-Parallax-BackgroundTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorbizi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CE6AF89191C67A2000450C6 /* Build configuration list for PBXProject "TableView-Parallax-Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE6AFC1191C67A2000450C6 /* Debug */,
+				0CE6AFC2191C67A2000450C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CE6AFC3191C67A2000450C6 /* Build configuration list for PBXNativeTarget "TableView-Parallax-Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE6AFC4191C67A2000450C6 /* Debug */,
+				0CE6AFC5191C67A2000450C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CE6AFC6191C67A2000450C6 /* Build configuration list for PBXNativeTarget "TableView-Parallax-BackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE6AFC7191C67A2000450C6 /* Debug */,
+				0CE6AFC8191C67A2000450C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CE6AF86191C67A2000450C6 /* Project object */;
+}
