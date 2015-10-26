@@ -1,3 +1,3 @@
 # TableView-Parallax-Background
 
-Infinity Parallax under tableView.
+Infinity Parallax with scrolling tableView.
