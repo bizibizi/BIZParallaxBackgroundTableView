@@ -25,9 +25,9 @@
     [super viewDidLoad];
 
     self.dataSource = [NSMutableArray array];
-    for (NSInteger i = 0; i < 100; i++)
+    for (NSInteger i = 0; i < 300; i++)
     {
-        [self.dataSource addObject:[NSString stringWithFormat:@"# %ld", (long)i]];
+        [self.dataSource addObject:[NSString stringWithFormat:@"### %ld ", (long)i]];
     }
     
     [self.tableView setParallaxBackgroundImage:[UIImage imageNamed:@"image.jpg"] delegate:self];
