@@ -18,11 +18,11 @@ typedef enum {
 
 @interface BIZParallaxBackgroundTableView : UITableView
 //! Designated initializer
-- (void)addParallaxWithBackgroundImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate;
+- (void)addParallaxWithBackgroundWithImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate;
 //! Getter
 @property (weak, nonatomic) id <UITableViewDelegate> parallaxDelegate;
 //! Remove parallax
-- (void)removeParallax;
+- (void)removeParallaxBackground;
 
 //! Speed of parallax motion
 @property (assign, nonatomic) kParallaxScrollSpeed parallaxScrollSpeed;

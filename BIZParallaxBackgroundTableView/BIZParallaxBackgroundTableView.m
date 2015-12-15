@@ -22,7 +22,7 @@
 @implementation BIZParallaxBackgroundTableView
 
 
-- (void)addParallaxWithBackgroundImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate
+- (void)addParallaxWithBackgroundWithImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate
 {
     _parallaxImage = image;
     _parallaxDelegate = delegate;
@@ -57,7 +57,7 @@
     [self.rootImageView addSubview:imageView];
 }
 
-- (void)removeParallax
+- (void)removeParallaxBackground
 {
     [self.backgroundView removeFromSuperview];
     self.backgroundView = nil;

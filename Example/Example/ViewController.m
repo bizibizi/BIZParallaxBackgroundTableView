@@ -31,7 +31,7 @@
     }
     
     
-    [self.tableView addParallaxWithBackgroundImage:[UIImage imageNamed:@"image.jpg"] delegate:self];
+    [self.tableView addParallaxWithBackgroundWithImage:[UIImage imageNamed:@"image.jpg"] delegate:self];
 }
 
 
@@ -58,7 +58,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.tableView removeParallax];
+    [self.tableView removeParallaxBackground];
 }
 
 @end
