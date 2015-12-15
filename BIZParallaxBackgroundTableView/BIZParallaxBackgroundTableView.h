@@ -10,17 +10,24 @@
 
 
 typedef enum {
-    ParallaxScrollSpeedFast = 2,
-    ParallaxScrollSpeedNormal, // default
-    ParallaxScrollSpeedSlow,
-} ParallaxScrollSpeed;
+    kParallaxScrollSpeedFast = 2,
+    kParallaxScrollSpeedNormal, // default
+    kParallaxScrollSpeedSlow,
+} kParallaxScrollSpeed;
 
 
 @interface BIZParallaxBackgroundTableView : UITableView
 //! Designated initializer
 - (void)setParallaxBackgroundImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate;
-
+//! Getter
 @property (weak, nonatomic) id <UITableViewDelegate> parallaxDelegate;
-@property (assign, nonatomic) ParallaxScrollSpeed parallaxScrollSpeed;
+//! Remove parallax
+- (void)removeParallax;
+
+//! Speed of parallax motion
+@property (assign, nonatomic) kParallaxScrollSpeed parallaxScrollSpeed;
+//! Overlay background color. Alpha should be less then 1.0
+@property (nonatomic, strong) UIColor *overlayColor;
+
 
 @end

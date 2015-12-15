@@ -30,6 +30,7 @@
         [self.dataSource addObject:[NSString stringWithFormat:@"### %ld ", (long)i]];
     }
     
+    
     [self.tableView setParallaxBackgroundImage:[UIImage imageNamed:@"image.jpg"] delegate:self];
 }
 
@@ -53,6 +54,11 @@
     cell.textLabel.text = self.dataSource[indexPath.row];
     cell.textLabel.textColor = [UIColor whiteColor];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.tableView removeParallax];
 }
 
 @end
