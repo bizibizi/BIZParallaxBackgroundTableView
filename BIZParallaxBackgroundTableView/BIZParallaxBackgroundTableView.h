@@ -1,6 +1,6 @@
 //
-//  BIZTableViewParallaxBackground.h
-//  BIZTableViewParallaxBackground.h
+//  BIZParallaxBackgroundTableView.h
+//  BIZParallaxBackgroundTableView.h
 //
 //  Created by IgorBizi@mail.ru on 5/9/15.
 //  Copyright (c) 2015 IgorBizi@mail.ru. All rights reserved.
@@ -16,7 +16,7 @@ typedef enum {
 } ParallaxScrollSpeed;
 
 
-@interface BIZTableViewParallaxBackground : UITableView
+@interface BIZParallaxBackgroundTableView : UITableView
 //! Designated initializer
 - (void)setParallaxBackgroundImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate;
 

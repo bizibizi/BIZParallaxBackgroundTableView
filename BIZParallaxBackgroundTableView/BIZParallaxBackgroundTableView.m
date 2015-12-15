@@ -1,25 +1,25 @@
 //
-//  BIZTableViewParallaxBackground.m
-//  BIZTableViewParallaxBackground.m
+//  BIZParallaxBackgroundTableView.m
+//  BIZParallaxBackgroundTableView.m
 //
 //  Created by IgorBizi@mail.ru on 5/9/15.
 //  Copyright (c) 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
-#import "BIZTableViewParallaxBackground.h"
+#import "BIZParallaxBackgroundTableView.h"
 
 
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
 
-@interface BIZTableViewParallaxBackground () <UITableViewDelegate>
+@interface BIZParallaxBackgroundTableView () <UITableViewDelegate>
 @property (nonatomic) CGFloat scrollViewOffsetY;
 @property (strong, nonatomic) UIImageView *rootImageView;
 @property (nonatomic, strong) UIImage *parallaxImage;
 @end
 
 
-@implementation BIZTableViewParallaxBackground
+@implementation BIZParallaxBackgroundTableView
 
 
 - (void)setParallaxBackgroundImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate

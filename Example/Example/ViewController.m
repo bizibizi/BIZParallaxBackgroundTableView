@@ -1,17 +1,17 @@
 //
 //  ViewController.m
-//  BIZTableViewParallaxBackground
+//  Example
 //
-//  Created by IgorBizi@mail.ru on 12/9/15.
+//  Created by IgorBizi@mail.ru on 12/15/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "BIZTableViewParallaxBackground.h"
+#import "BIZParallaxBackgroundTableView.h"
 
 
 @interface ViewController () <UITableViewDelegate>
-@property (weak, nonatomic) IBOutlet BIZTableViewParallaxBackground *tableView;
+@property (weak, nonatomic) IBOutlet BIZParallaxBackgroundTableView *tableView;
 @property (nonatomic) NSMutableArray *dataSource;
 
 @end
@@ -23,7 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
     self.dataSource = [NSMutableArray array];
     for (NSInteger i = 0; i < 300; i++)
     {

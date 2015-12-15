@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BIZTableViewParallaxBackground.xcscheme</key>
+		<key>Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7E7222C01C186E200003B056</key>
+		<key>7E4B55A81C20548700522BA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
