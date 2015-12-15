@@ -22,7 +22,7 @@
 @implementation BIZParallaxBackgroundTableView
 
 
-- (void)setParallaxBackgroundImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate
+- (void)addParallaxWithBackgroundImage:(UIImage *)image delegate:(id<UITableViewDelegate>)delegate
 {
     _parallaxImage = image;
     _parallaxDelegate = delegate;

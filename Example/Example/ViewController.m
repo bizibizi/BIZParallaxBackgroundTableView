@@ -31,7 +31,7 @@
     }
     
     
-    [self.tableView setParallaxBackgroundImage:[UIImage imageNamed:@"image.jpg"] delegate:self];
+    [self.tableView addParallaxWithBackgroundImage:[UIImage imageNamed:@"image.jpg"] delegate:self];
 }
 
 
