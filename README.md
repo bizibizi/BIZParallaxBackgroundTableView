@@ -1,6 +1,6 @@
 # BIZParallaxBackgroundTableView
 
-Wait for gif presentation, it's loading...
+*Wait for gif presentation, it's loading...*
 
 ![alt tag](https://github.com/bizibizi/BIZTableViewParallaxBackground/blob/master/presentation.gif)
 
