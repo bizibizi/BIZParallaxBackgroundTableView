@@ -10,20 +10,27 @@ BIZParallaxBackgroundTableView is a sublcass of UITableView that adds ability ad
 
 # Installation
 
+### Manually
  - Copy BIZParallaxBackgroundTableView folder to your project 
  - ```#import "BIZParallaxBackgroundTableView.h"```
- - Create UITableView via code or storyboard
- - implement```addParallaxWithBackgroundWithImage:delegate:```
 
 
 # Usage
 
+ - Create UITableView via code or storyboard
+ - implement```addParallaxWithBackgroundWithImage:delegate:```
 ```objective-c
 //add parallax background 
 [self.tableView addParallaxWithBackgroundWithImage:[UIImage imageNamed:@"image.jpg"] delegate:self];
 //remove parallax background 
 [self.imageView removeParallaxBackground];
 ```
+
+
+# Contact
+Igor Bizi
+- https://www.linkedin.com/in/igorbizi
+- igorbizi@mail.ru
 
 
 # License
