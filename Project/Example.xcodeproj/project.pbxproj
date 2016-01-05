@@ -14,7 +14,7 @@
 		7E4B55B91C20548700522BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B55B81C20548700522BA1 /* Assets.xcassets */; };
 		7E4B55BC1C20548700522BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B55BA1C20548700522BA1 /* LaunchScreen.storyboard */; };
 		7E4B55C41C20550D00522BA1 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B55C31C20550D00522BA1 /* image.jpg */; settings = {ASSET_TAGS = (); }; };
-		7E4B55CC1C20554900522BA1 /* BIZParallaxBackgroundTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B55CB1C20554900522BA1 /* BIZParallaxBackgroundTableView.m */; settings = {ASSET_TAGS = (); }; };
+		7EC279281C3B5C2000FDABF4 /* BIZParallaxBackgroundTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC279271C3B5C2000FDABF4 /* BIZParallaxBackgroundTableView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		7E4B55BB1C20548700522BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E4B55BD1C20548700522BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4B55C31C20550D00522BA1 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
-		7E4B55CA1C20554900522BA1 /* BIZParallaxBackgroundTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZParallaxBackgroundTableView.h; sourceTree = "<group>"; };
-		7E4B55CB1C20554900522BA1 /* BIZParallaxBackgroundTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZParallaxBackgroundTableView.m; sourceTree = "<group>"; };
+		7EC279261C3B5C2000FDABF4 /* BIZParallaxBackgroundTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZParallaxBackgroundTableView.h; sourceTree = "<group>"; };
+		7EC279271C3B5C2000FDABF4 /* BIZParallaxBackgroundTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZParallaxBackgroundTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		7E4B55A01C20548700522BA1 = {
 			isa = PBXGroup;
 			children = (
-				7E4B55C91C20554900522BA1 /* BIZParallaxBackgroundTableView */,
+				7EC279251C3B5C2000FDABF4 /* Classes */,
 				7E4B55AB1C20548700522BA1 /* Example */,
 				7E4B55AA1C20548700522BA1 /* Products */,
 			);
@@ -86,14 +86,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7E4B55C91C20554900522BA1 /* BIZParallaxBackgroundTableView */ = {
+		7EC279251C3B5C2000FDABF4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E4B55CA1C20554900522BA1 /* BIZParallaxBackgroundTableView.h */,
-				7E4B55CB1C20554900522BA1 /* BIZParallaxBackgroundTableView.m */,
+				7EC279261C3B5C2000FDABF4 /* BIZParallaxBackgroundTableView.h */,
+				7EC279271C3B5C2000FDABF4 /* BIZParallaxBackgroundTableView.m */,
 			);
-			name = BIZParallaxBackgroundTableView;
-			path = ../BIZParallaxBackgroundTableView;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4B55CC1C20554900522BA1 /* BIZParallaxBackgroundTableView.m in Sources */,
+				7EC279281C3B5C2000FDABF4 /* BIZParallaxBackgroundTableView.m in Sources */,
 				7E4B55B41C20548700522BA1 /* ViewController.m in Sources */,
 				7E4B55B11C20548700522BA1 /* AppDelegate.m in Sources */,
 				7E4B55AE1C20548700522BA1 /* main.m in Sources */,
