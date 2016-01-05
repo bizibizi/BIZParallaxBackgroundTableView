@@ -5,7 +5,7 @@
 ![alt tag](https://github.com/bizibizi/BIZTableViewParallaxBackground/blob/master/presentation.gif)
 
 
-BIZParallaxBackgroundTableView is a sublcass of UITableView that adds ability add add custom image as background of tableView and scroll it with scrolling tableView.
+BIZParallaxBackgroundTableView is a sublcass of UITableView that adds custom image as background of tableView and scrolls it with Parallax effect.
 
 
 # Installation
