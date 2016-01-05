@@ -11,8 +11,12 @@ BIZParallaxBackgroundTableView is a sublcass of UITableView that adds custom ima
 # Installation
 
 ### Manually
- - Copy BIZParallaxBackgroundTableView folder to your project 
- - ```#import "BIZParallaxBackgroundTableView.h"```
+- Copy ```BIZParallaxBackgroundTableView``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZParallaxBackgroundTableView' 
+```
 
 
 # Usage
